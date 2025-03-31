@@ -1,1 +1,1 @@
-  e commerce makeup website 
+  E COMMERCE COSMETIC WEBSITE
