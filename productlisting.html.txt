@@ -1,0 +1,41 @@
+Project listing 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cosmetic Shop</h1>
+        <nav>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Products</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$19.99</p>
+                <form action="/add-to-cart" method="POST">
+                    <input type="hidden" name="name" value="Product 1">
+                    <input type="hidden" name="price" value="19.99">
+                    <button type="submit">Add to Cart</button>
+                </form>
+            </div>
+            <!-- Repeat for more products -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Cosmetic Shop</p>
+    </footer>
+</body>
+</html>
