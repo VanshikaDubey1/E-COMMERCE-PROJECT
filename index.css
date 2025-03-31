@@ -1,1 +1,17 @@
-
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background: pink;
+    padding: 10px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
